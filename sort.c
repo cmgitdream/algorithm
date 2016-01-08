@@ -108,5 +108,6 @@ int main(int argc, char *argv[])
 
   if (out != NULL)
     free(out);
+  free(arr);
   return 0;
 }
